@@ -1,0 +1,59 @@
+.cloud2{
+    height:160px;
+    width: 110px;
+    position: absolute;
+    left: 450px;
+    animation-delay: 2s;
+    animation-name:float2;
+    animation-duration: 55s;
+    animation-iteration-count: 100;
+    z-index:-1;
+    opacity: .8;
+}
+.puff1a{
+        position: absolute;
+        top: 95px;
+        background-color:white;
+        height: 10px;
+        width: 100px;
+        border-radius: 50px;
+        box-shadow: inset 0px -1px 1px 1px #bbb;
+        z-index:1
+    }
+    .puff2a{
+        position: absolute;
+        top: 75px;
+        left: 20px;
+        background-color:white;
+        height: 30px;
+        width: 40px;
+        border-top-right-radius: 50px;
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        z-index:0
+    }
+    .puff3a{
+        position: absolute;
+        top: 55px;
+        left: 38px;
+        background-color:white;
+        height: 50px;
+        width: 50px;
+        border-top-right-radius: 50px;
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        z-index:0;
+    }
+    .puff4a{
+        position: absolute;
+        top: 69px;
+        left: 60px;
+        background-color:white;
+        height: 30px;
+        width: 40px;
+        border-top-right-radius: 50px;
+        border-top-left-radius: 50px;
+        
+    }
