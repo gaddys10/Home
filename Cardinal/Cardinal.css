@@ -1,0 +1,121 @@
+.bird{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 1390px;
+    top:  200px;
+    transform:scaleX(-1);
+    animation-name: float4;
+    animation-duration: 20s;
+    animation-iteration-count: 100;
+    animation-delay: 10s;
+
+}
+    .birdpart1{
+        height:8px;
+        width: 9px;
+        border-radius: 50%;
+        background-color: red;
+        position: absolute;
+        left: 30px;
+        top: 7px;
+        z-index: 1;
+}
+    .birdpart2{
+        height:11px;
+        width: 11px;
+        border-radius: 50%;
+        background-color: red;
+        position: absolute;
+        left: 22px;
+        top: 10px;
+        transform: rotate(5deg);
+}
+    .birdpart3{
+        height:1px;
+        width: 27px;
+        background-color: red;
+        position: absolute;
+        left: 8px;
+        top: 11px;
+        transform: rotate(-1deg);
+}
+    .birdpart4{
+        height:1px;
+        width: 27px;
+        background-color: red;
+        position: absolute;
+        left: 10px;
+        top: 10px;
+        transform: rotate(-5deg);
+}
+    .birdpart5{
+        height:10px;
+        width: 14px;
+        background-color: red;
+        position: absolute;
+        left: 16px;
+        top: 11px;
+        transform: rotate(-5deg);
+        border-bottom-left-radius: 20px;
+}
+    .birdpart5{
+        background-color: red;
+        position: absolute;
+        left: 16px;
+        top: 11px;
+        transform: rotate(-5deg);
+        border-bottom-left-radius: 20px;
+        box-shadow: inset 1px -1px 1px 1px darkred;
+    }
+    .birdpart6{
+        width: 0;
+        height: 0;
+        border-bottom: 3px solid orange;
+        border-right: 5px solid transparent;
+        border-bottom-right-radius:0px;
+        left: 38px;
+        top: 9px;
+        position: absolute;
+        z-index:0;
+    }
+    .birdpart7{
+        width: 0;
+        height: 0;
+        border-bottom: 3px solid red;
+        border-right: 5px solid transparent;
+        border-bottom-right-radius:0px;
+        left: 32px;
+        top: 5px;
+        position: absolute;
+        z-index:0;
+    }
+    .birdpart8{
+        width: 0;
+        height: 0;
+        border-bottom: 8px solid darkred;
+        border-right: 15px solid transparent;
+        border-bottom-right-radius:0px;   
+        border-bottom-left-radius:10px;
+        border-top-left-radius:0px;
+        border-top-right-radius:10px;
+        left: 19px;
+        top: 5px;
+        position: absolute;
+        z-index:1;
+        transform: rotate(45deg);
+        animation-name: flap;
+        animation-duration: 1s;
+        animation-iteration-count: 10000;
+        animation-delay: 1s;
+    }
+    .birdpart9{
+        height: 1px;
+        width: 2px;
+        border-radius: 50%;
+        background-color: black;
+        position:absolute;
+        left: 36px;
+        top: 9px;
+        z-index: 2;
+    }
