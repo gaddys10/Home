@@ -1,0 +1,135 @@
+.flower{
+    height: 160px;
+    width: 95px;
+    position: absolute;
+    left: 720px;
+    top: 488px;
+    z-index: 2;
+}
+    .fstem{
+        height: 59px;
+        width: 5px;
+        position: absolute;
+        top: 85px;
+        left: 35px;
+        background-color: darkgreen;
+        z-index: -1;
+        box-shadow: inset -1px 1px 1px 1px
+}
+    .fcenter{
+        top: 75px;
+        left: 30px;
+        border-radius: 50%;
+        position: absolute;
+        height: 15px;
+        width: 15px;
+        background-color: #997735;
+        box-shadow: inset -2px -1px 0px .5px #775c28
+}
+    .fpetal1{
+        height: 20px;
+        width: 20px;
+        background-color: coral;
+        position: absolute;
+        top: 60px;
+        left: 28px;
+        z-index: -1;
+        border-radius: 50%;
+        box-shadow: 0px 0px 1px 1px #c6685f;
+    }
+    .fpetal2{
+        height: 20px;
+        width: 20px;
+        background-color: coral;
+        position: absolute;
+        top: 85px;
+        left: 28px;
+        z-index: -1;
+        border-bottom-left-radius:100px;
+        border-bottom-right-radius:100px;
+        box-shadow: 0px 0px 1px 1px #c6685f;
+}
+    .fpetal3{
+        height: 20px;
+        width: 20px;
+        background-color: coral;
+        position: absolute;
+        top: 72px;
+        left: 16px;
+        z-index: -1;
+        border-bottom-left-radius:100px;
+        border-bottom-right-radius:100px;
+        transform: rotate(90deg);
+        box-shadow: 0px 0px 1px 1px #c6685f;
+}
+    .fpetal4{
+        height: 20px;
+        width: 20px;
+        background-color: coral;
+        position: absolute;
+        top: 72px;
+        left: 39px;
+        z-index: -1;
+        border-bottom-left-radius:100px;
+        border-bottom-right-radius:100px;
+        transform: rotate(-90deg);
+        box-shadow:-2px 1px 1px 1px #c6685f;
+}
+    .fpetal5{
+       height: 20px;
+        width: 20px;
+        background-color: coral;
+        position: absolute;
+        top: 79px;
+        left: 21px;
+        z-index: -1;
+        border-bottom-left-radius:100px;
+        border-bottom-right-radius:100px;
+        transform: rotate(45deg);
+        box-shadow: 2px 0px 1px 1px #c6685f;
+}
+    .fpetal6{
+       height: 20px;
+        width: 20px;
+        background-color: coral;
+        position: absolute;
+        top: 79px;
+        left: 35px;
+        z-index: -1;
+        border-bottom-left-radius:100px;
+        border-bottom-right-radius:100px;
+        border-top-right-radius: 50px;
+        border-top-left-radius: 50px;
+        transform: rotate(-45deg);
+        box-shadow:2px 1px 1px 1px #c6685f;
+}
+    .fpetal7{
+       height: 20px;
+        width: 20px;
+        background-color: coral;
+        position: absolute;
+        top: 64px;
+        left: 21px;
+        z-index: -1;
+        border-bottom-left-radius:100px;
+        border-bottom-right-radius:100px;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        transform: rotate(135deg);
+        box-shadow: -2px -2px 1px 1px #c6685f;
+}
+    .fpetal8{
+        height: 22px;
+        width: 20px;
+        background-color: coral;
+        position: absolute;
+        top: 63px;
+        left: 35px;
+        z-index: -1;
+        border-bottom-left-radius:100px;
+        border-bottom-right-radius:100px;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        transform: rotate(-135deg);
+        box-shadow: -3px 1px 1px 1px #c6685f;
+}
