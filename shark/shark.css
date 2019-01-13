@@ -1,10 +1,24 @@
+@keyframes float{
+        0% {
+            left: 150px;
+            top: 80px;
+        }
+        25%{}
+        50%{}
+        75%{}
+        100%{
+            left: 1390px;
+            top: 0px;
+        }
+}
+
 .shark1{
     width: 255px;
     height: 120px;
     position: absolute;
     left: 150px;
     top:150px;
-    animation-name: float3;
+    animation-name: float;
     animation-duration: 150s;
     animation-iteration-count: 100;
     transform: rotate(-9deg);
