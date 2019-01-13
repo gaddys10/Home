@@ -1,0 +1,168 @@
+#tree{
+    height: 500px;
+    width: 350px;
+    position: absolute;
+    left: 900px;
+    top: 100px;
+}
+    #stem{
+        width: 50px;
+        height: 300px;
+        position: absolute;
+        left: 150px;
+        top: 200px;
+        background-color: saddlebrown;
+        z-index: 1;
+    }
+        #stemShadow{
+            width: 15px;
+            height: 300px;
+            background-color: #562a0b;
+            position: absolute;
+            left: 190px;
+            top: 200px;
+            z-index: 1;
+            box-shadow: inset -2px 1px 1px 1px 
+        }
+        #stemHole{
+            background-color: black;
+            height: 50px;
+            width: 10px;
+            position: absolute;
+            border-top-left-radius: 100px;
+            border-top-right-radius: 100px;
+            border-bottom-left-radius: 100px;
+            border-bottom-right-radius: 100px;
+            top: 300px;
+            left: 160px;
+            z-index: 1;
+}
+        #stemBranch{
+        height: 80px;
+        width: 10px;
+        background-color: saddlebrown;
+        transform: rotate(-40deg);
+        position: absolute;
+        top: 190px;
+        left: 130px;
+        box-shadow: inset -1px 1px 1px 1px    
+    }
+    #treeTop1{
+        height: 150px;
+        width: 150px;
+        background-color: darkgreen;
+        position: absolute;
+        top: 120px;
+        z-index: 0;
+        left:140px;
+        border-top-left-radius: 100px;
+        border-top-right-radius: 100px;
+        border-bottom-left-radius: 100px;
+        border-bottom-right-radius: 100px;
+        box-shadow: inset -5px -5px 0px 1px #003300
+    }
+    #treeTop2{
+        height: 70px;
+        width: 70px;
+        background-color: darkgreen;
+        position: absolute;
+        top: 150px;
+        z-index: 0;
+        left: 120px;
+        border-top-left-radius: 100px;
+        border-top-right-radius: 100px;
+        border-bottom-left-radius: 100px;
+        border-bottom-right-radius: 100px;
+        z-index: 2;
+        box-shadow: inset -5px -5px 0px 1px #003300
+    }
+    #treeTop3{
+        height: 220px;
+        width: 220px;
+        background-color: darkgreen;
+        position: absolute;
+        top: 0px;
+        z-index: 0;
+        left: 60px;
+        border-top-left-radius: 100px;
+        border-top-right-radius: 100px;
+        border-bottom-left-radius: 100px;
+        border-bottom-right-radius: 100px;
+        z-index: 1;
+        box-shadow: inset -10px -15px 0px 1px #003300;
+    }
+    #treeTop4{
+        height: 100px;
+        width: 100px;
+        background-color: darkgreen;
+        position: absolute;
+        top: 0px;
+        z-index: 0;
+        left: 200px;
+        border-top-left-radius: 100px;
+        border-top-right-radius: 100px;
+        border-bottom-left-radius: 100px;
+        border-bottom-right-radius: 100px;
+}
+    #treeTop5{
+        height: 120px;
+        width: 120px;
+        background-color: darkgreen;
+        position: absolute;
+        top: 100px;
+        z-index: 1;
+        left: 60px;
+        border-top-left-radius: 100px;
+        border-top-right-radius: 100px;
+        border-bottom-left-radius: 100px;
+        border-bottom-right-radius: 100px;
+        box-shadow: inset -10px -15px 0px 1px #003300;
+    }
+    #treeTop6{
+        height: 150px;
+        width: 150px;
+        background-color: darkgreen;
+        position: absolute;
+        top: 50px;
+        z-index: 0;
+        left: 180px;
+        border-top-left-radius: 100px;
+        border-top-right-radius: 100px;
+        border-bottom-left-radius: 100px;
+        border-bottom-right-radius: 100px;
+        box-shadow: inset -1px -5px 0px 1px #003300;
+        
+    }
+#apple1{
+    background-color: red;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    z-index: 1;
+    box-shadow: inset -4px -6px 1px 1px darkred
+}
+#apple2{
+    background-color: red;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 200px;
+    left: 110px;
+    z-index: 1;
+    box-shadow: inset -4px -6px 1px 1px darkred
+}
+#apple3{
+    background-color: red;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 180px;
+    left: 230px;
+    z-index: 1;
+    box-shadow: inset -4px -6px 1px 1px darkred
+}
