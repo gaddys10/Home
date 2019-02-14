@@ -1,4 +1,10 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
 
+/** vvv ANIMATIONS vvv **/
 @font-face {
 font-family: "FUTRFW";
 src: url("FUTRFW.TTF");
@@ -31,13 +37,17 @@ src: url("FUTRFW.TTF");
     }
     100%{
         top: 250px;
-        opacity: 1;}
+        opacity: 1;
+    }
 }
-body{
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden;
-}
+/** ^^^ ANIMATIONS ^^^ **/
+
+/** vvv ADDITIONAL CLASSES vvv **/
+
+/** ^^^ ADDITIONAL CLASSES ^^^ **/
+
+
+/** vvv LOGO vvv **/
 #syrus{
     font-family: 'FUTR', sans-serif;
     font-size: 48px;
@@ -51,13 +61,15 @@ body{
     text-align: center;
     font-size: 16px;
 }
+/** ^^^ LOGO ^^^ **/
 
-#sessions{
+/** vvv SPLASH BODY vvv **/
+#services{
     width: 170px;
     height:133px;
     margin: auto;
 }
-#sessions p{
+#services p{
     font-family: 'FUTR', sans-serif;
     font-size: 11px;
     text-align: center;
@@ -65,222 +77,233 @@ body{
     position: relative;
     
 }
-#icon1{
-    width: 100%;
-    height: 99px;
-    position: relative;
-    left: -250px;
-    
-    animation-name: appear;
-    animation-duration: 4s;
-    
-    
-}
-#head1{
-    background-color: black;
-    height: 25px;
-    width: 25px;
-    border-radius: 50%;
-    position: relative;
-    left: 39px;
-    top: 40px;   
-    float: left;
-}
-#body1{
-    background-color: black;
-    height: 40px;
-    width: 30px;
-    border-top-right-radius: 50px;
-    border-top-left-radius: 50px;
-    position: relative;
-    left: 33px;
-    top: 41px;
-}
-#head2{
-    background-color: black;
-    height: 25px;
-    width: 25px;
-    border-radius: 50%;
-    position: relative;
-    left: 105px;
-    top: 40px;   
-    
-}
-#body2{
-    background-color: black;
-    height: 40px;
-    width: 30px;
-    border-top-right-radius: 50px;
-    border-top-left-radius: 50px;
-    position: relative;
-    left: 107px;
-    top: 1px;
-    float: left;
-}
-#table{
-    
-    height: 20px;
-    width: 10px;
-    left: 75px;
-    position: relative;
-    top: 16px;
-    border: solid 5px #000;
-  border-color: #000 transparent transparent transparent;
-  border-radius: 50%/100px 100px 0 0;
-}
 
-#sessionsText{
+
+    /** vvv PRIVATE SESSIONS vvv **/
+    #icon1{
+        width: 100%;
+        height: 99px;
+        position: relative;
+        left: -250px;
+
         animation-name: appear;
         animation-duration: 4s;
-}
 
-#icon2{
+
+    }
+    #head1{
+        background-color: black;
+        height: 25px;
+        width: 25px;
+        border-radius: 50%;
+        position: relative;
+        left: 39px;
+        top: 40px;   
+        float: left;
+    }
+    #body1{
+        background-color: black;
+        height: 40px;
+        width: 30px;
+        border-top-right-radius: 50px;
+        border-top-left-radius: 50px;
+        position: relative;
+        left: 33px;
+        top: 41px;
+    }
+    #head2{
+        background-color: black;
+        height: 25px;
+        width: 25px;
+        border-radius: 50%;
+        position: relative;
+        left: 105px;
+        top: 40px;   
+
+    }
+    #body2{
+        background-color: black;
+        height: 40px;
+        width: 30px;
+        border-top-right-radius: 50px;
+        border-top-left-radius: 50px;
+        position: relative;
+        left: 107px;
+        top: 1px;
+        float: left;
+    }
+    #table{
+
+        height: 20px;
+        width: 10px;
+        left: 75px;
+        position: relative;
+        top: 16px;
+        border: solid 5px #000;
+      border-color: #000 transparent transparent transparent;
+      border-radius: 50%/100px 100px 0 0;
+    }
+    #sessionsText{
+            animation-name: appear;
+            animation-duration: 4s;
+    }
+    /** ^^^ PRIVATE SESSIONS ^^^ **/
+
+    /** CUSTOM DESIGNS **/
+    #icon2{
+
+        width: 100%;
+        height: 99px;
+        position: relative;
+        left: -20px;
+        top: -100px;
+
+        opacity: 0;
+        animation-name: appear;
+        animation-duration: 4s;
+        animation-delay: .5s;
+        animation-fill-mode: forwards;
+    }
+    #paper{
+        height: 70px;
+        width: 55px;
+        background-color: white;
+        border-style: solid;
+        border-color: black;
+        border-width: 2px;
+    }
+    #line1{
+        background-color: black;
+        height: 100%;
+        width: 2px;
+        position: relative;
+        left: 5px;
+    }
+    #line2{
+         background-color: black;
+        height: 100%;
+        width: 2px;
+        position: relative;
+        left: 9px;
+        top: -70;
+    }
+    #line3{
+        background-color: black;
+        height: 2px;
+        width: 100%;
+        position: relative;
+        top: -132px;
+    }
+    #customText{
+        top: -133px;
+        opacity: 0;
+        margin-left: 233px;
+        animation-name: appear;
+        animation-duration: 4s;
+        animation-delay: .5s;
+        animation-fill-mode: forwards;
+
+    }
+    /** CUSTOM DESIGNS **/
     
-    width: 100%;
-    height: 99px;
-    position: relative;
-    left: -20px;
-    top: -100px;
-    
-    opacity: 0;
-    animation-name: appear;
-    animation-duration: 4s;
-    animation-delay: .5s;
-    animation-fill-mode: forwards;
-}
+    /** vvv INTERVIEW COACHING vvv **/
+    #icon3{
+        width: 100%;
+        height: 99px;
+        position: relative;
+        left: 122px;
+        opacity: 0;
+        animation-name: appear;
+        animation-duration: 4s;
+        animation-delay: 1s;
+        animation-fill-mode: forwards;
+
+    }
+    #tieLine1{
+        height: 60px;
+        background-color: black;
+        width: 3px;
+        transform: rotate(25deg);
+        position: relative;
+        top: -251px;
+        left: 39px;
+    }
+    #tieLine2{
+        height: 60px;
+        background-color: black;
+        width: 3px;
+        transform: rotate(-25deg);
+        position: relative;
+        top: -311px;
+        left: 44px;  
+        border-radius: 10%;
+    }
+    #tieLine3{
+        width: 22px;
+        height: 3px;
+        background-color: black;
+        position: relative;
+        top: -369px;
+        left: 33px;
+        border-radius: 25%;
+    }
+    #tieLine4{
+        height: 24px;
+        background-color: black;
+        width: 3px;
+        transform: rotate(-40deg);
+        position: relative;
+        top: -321px;
+        left: 34px;  
+        border-bottom-left-radius: 50%;
+    }
+    #tieLine5{
+        height: 24px;
+        background-color: black;
+        width: 3px;
+        transform: rotate(40deg);
+        position: relative;
+        top: -345px;
+        left: 49px;  
+        border-bottom-right-radius: 50%;
+        border-bottom-right-radius: 50%;
+    }
+    #interviewText{
+        top: -280px;
+        margin-left: 383px;
+        opacity: 0;
+        animation-name: appear;
+        animation-duration: 4s;
+        animation-delay: 1s;
+        animation-fill-mode: forwards;
+    }
+    /** ^^^ INTERVIEW COACHING ^^^ **/
+
+    /** vvv COVER LETTERS vvv **/
+    #icon4{
+        position: relative;
+        top: -400px;
+        left: 506px;
+        font-family: 'FUTRFW';
+        font-size: 64px;
+
+    }
+    #icon4 p{
+        font-size: 20px;
+        opacity: 0;
+        animation-name: appear;
+        animation-duration: 4s;
+        animation-delay: 1.5s;
+        animation-fill-mode: forwards;
+    }
+    /** ^^^ COVER LETTERS ^^^ **/
+/** ^^^ SPLASH BODY ^^^ **/
 
 
-#paper{
-    height: 70px;
-    width: 55px;
-    background-color: white;
-    border-style: solid;
-    border-color: black;
-    border-width: 2px;
-}
-#line1{
-    background-color: black;
-    height: 100%;
-    width: 2px;
-    position: relative;
-    left: 5px;
-}
-#line2{
-     background-color: black;
-    height: 100%;
-    width: 2px;
-    position: relative;
-    left: 9px;
-    top: -70;
-}
-#line3{
-    background-color: black;
-    height: 2px;
-    width: 100%;
-    position: relative;
-    top: -132px;
-}
-#customText{
-    top: -133px;
-    opacity: 0;
-    margin-left: 233px;
-    animation-name: appear;
-    animation-duration: 4s;
-    animation-delay: .5s;
-    animation-fill-mode: forwards;
-   
-}
+/** --------------------------------------------- **/
 
-#icon3{
-    width: 100%;
-    height: 99px;
-    position: relative;
-    left: 122px;
-    opacity: 0;
-    animation-name: appear;
-    animation-duration: 4s;
-    animation-delay: 1s;
-    animation-fill-mode: forwards;
-    
-}
-#tieLine1{
-    height: 60px;
-    background-color: black;
-    width: 3px;
-    transform: rotate(25deg);
-    position: relative;
-    top: -251px;
-    left: 39px;
-}
-#tieLine2{
-    height: 60px;
-    background-color: black;
-    width: 3px;
-    transform: rotate(-25deg);
-    position: relative;
-    top: -311px;
-    left: 44px;  
-    border-radius: 10%;
-}
-#tieLine3{
-    width: 22px;
-    height: 3px;
-    background-color: black;
-    position: relative;
-    top: -369px;
-    left: 33px;
-    border-radius: 25%;
-}
-#tieLine4{
-    height: 24px;
-    background-color: black;
-    width: 3px;
-    transform: rotate(-40deg);
-    position: relative;
-    top: -321px;
-    left: 34px;  
-    border-bottom-left-radius: 50%;
-}
-#tieLine5{
-    height: 24px;
-    background-color: black;
-    width: 3px;
-    transform: rotate(40deg);
-    position: relative;
-    top: -345px;
-    left: 49px;  
-    border-bottom-right-radius: 50%;
-    border-bottom-right-radius: 50%;
-}
-#interviewText{
-    top: -280px;
-    margin-left: 383px;
-    opacity: 0;
-    animation-name: appear;
-    animation-duration: 4s;
-    animation-delay: 1s;
-    animation-fill-mode: forwards;
-}
-
-#icon4{
-    position: relative;
-    top: -400px;
-    left: 506px;
-    font-family: 'FUTRFW';
-    font-size: 64px;
-
-}
-#icon4 p{
-    font-size: 20px;
-    opacity: 0;
-    animation-name: appear;
-    animation-duration: 4s;
-    animation-delay: 2s;
-    animation-fill-mode: forwards;
-}
-
+/** vvv PAGE TWO vvv **/
 #blackTriangle{
- 
   width: 0; 
   height: 0; 
   border-left: 1000px solid transparent;
@@ -290,27 +313,32 @@ body{
   padding-bottom: 0px;
   animation-name: rise2;
   animation-iteration-count: 1;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-fill-mode: forwards;
 
 }
+
+/** vvv BIO vvv **/
 #bioBG{
-    margin-top: 0px;
-    padding-top: 0px;
-    width: 100%;
-    background-color: black;
-    color: white;
-    height: 800px;
-    text-align: center;
-}
+        margin-top: 0px;
+        padding-top: 0px;
+        width: 100%;
+        background-color: black;
+        color: white;
+        height: 800px;
+        text-align: center;
+    }
 #bio{
-    color: white;
-    font-family: 'HelveticaNeue-Light', sans-serif;
-    position: relative;
-    top: 250px;
-    
-}
+        color: white;
+        font-family: 'HelveticaNeue-Light', sans-serif;
+        position: relative;
+        top: 350px;
+
+    }
+
 #bio span{
-    font-size: 36px;
-}
+        font-size: 36px;
+    }
+/** ^^^ PAGE TWO ^^^ **/
+
 

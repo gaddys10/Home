@@ -1,10 +1,20 @@
-var $window = $("window");
-var $bio = $("#bio");
+var bio = $('#bio');
+//sanity check
+bio.css("color", "red");
 
-if($window.scrollTop > 200){
-    console.log("animate");
-    $bio.style.animation = 'appear2';
-    $bio.style.animationiterationcount: 1;
-    $bio.style.animationduration: 2s;
-    $bio.style.animationfillmode: 'forwards';
-}
+
+console.log(bio.offset().top);
+
+var bounding = bio.first();
+//$(window).scroll(function(){
+//    var bounding = bio.first();
+//    console.log(bounding);
+//})
+//console.log(bounding);
+
+//bio is 944 pixels from top
+
+
+
+
+
