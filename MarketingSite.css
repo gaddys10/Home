@@ -1,7 +1,11 @@
 body{
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden;
+    
+    background-repeat: no-repeat;
+    background-size: 1450px;
+    
+    
 }
 
 /** vvv ANIMATIONS vvv **/
@@ -32,34 +36,69 @@ src: url("FUTRFW.TTF");
 }
 @keyframes appear2{
     0%{
-        top: 350px;
+        top: 170px;
         opacity: 0;
     }
     100%{
-        top: 250px;
+        top:100px;
         opacity: 1;
     }
 }
+
 /** ^^^ ANIMATIONS ^^^ **/
 
 /** vvv ADDITIONAL CLASSES vvv **/
+.animate{
+    animation: appear2;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
 
 /** ^^^ ADDITIONAL CLASSES ^^^ **/
 
-
+#page1{
+    background-image: url(statuefade2.jpg);
+    background-repeat: no-repeat;
+    background-size: 1450px;
+    height: 800px;
+    background-color: white;
+}
 /** vvv LOGO vvv **/
 #syrus{
     font-family: 'FUTR', sans-serif;
     font-size: 48px;
     text-align: center;
-    margin-top: 250px;
+    
     margin-bottom: 0px;
+    opacity: 0;
+        animation-name: appear;
+        animation-duration: 4s;
+        animation-delay: .5s;
+        animation-fill-mode: forwards;
 }
 #subtitle{
     margin-top: 0px;
-    font-family: 'FUTR', sans-serif;
+
+    font-family: 'FUTRFW', sans-serif;
     text-align: center;
     font-size: 16px;
+    opacity: 0;
+        animation-name: appear;
+        animation-duration: 4s;
+    animation-delay: .5s;
+        animation-fill-mode: forwards;
+}
+#location{
+    margin-top: 0px;
+    font-family: 'FUTR', sans-serif;
+    text-align: center;
+    font-size: 12px;
+    opacity: 0;
+    animation-name: appear;
+    animation-duration: 4s;
+    animation-delay: .5s;
+    animation-fill-mode: forwards;
 }
 /** ^^^ LOGO ^^^ **/
 
@@ -85,9 +124,11 @@ src: url("FUTRFW.TTF");
         height: 99px;
         position: relative;
         left: -250px;
-
+        opacity: 0;
+        animation-fill-mode: forwards;
         animation-name: appear;
         animation-duration: 4s;
+        animation-delay: 1s;
 
 
     }
@@ -144,7 +185,10 @@ src: url("FUTRFW.TTF");
       border-radius: 50%/100px 100px 0 0;
     }
     #sessionsText{
-            animation-name: appear;
+            opacity: 0;
+            animation: appear;
+            animation-fill-mode: forwards;
+            animation-delay: .5s;
             animation-duration: 4s;
     }
     /** ^^^ PRIVATE SESSIONS ^^^ **/
@@ -161,13 +205,13 @@ src: url("FUTRFW.TTF");
         opacity: 0;
         animation-name: appear;
         animation-duration: 4s;
-        animation-delay: .5s;
+        animation-delay: 1.5s;
         animation-fill-mode: forwards;
     }
     #paper{
         height: 70px;
         width: 55px;
-        background-color: white;
+        background-color: transparent;
         border-style: solid;
         border-color: black;
         border-width: 2px;
@@ -200,7 +244,7 @@ src: url("FUTRFW.TTF");
         margin-left: 233px;
         animation-name: appear;
         animation-duration: 4s;
-        animation-delay: .5s;
+        animation-delay: 1.5s;
         animation-fill-mode: forwards;
 
     }
@@ -215,7 +259,7 @@ src: url("FUTRFW.TTF");
         opacity: 0;
         animation-name: appear;
         animation-duration: 4s;
-        animation-delay: 1s;
+        animation-delay: 2s;
         animation-fill-mode: forwards;
 
     }
@@ -274,7 +318,7 @@ src: url("FUTRFW.TTF");
         opacity: 0;
         animation-name: appear;
         animation-duration: 4s;
-        animation-delay: 1s;
+        animation-delay: 2s;
         animation-fill-mode: forwards;
     }
     /** ^^^ INTERVIEW COACHING ^^^ **/
@@ -293,7 +337,7 @@ src: url("FUTRFW.TTF");
         opacity: 0;
         animation-name: appear;
         animation-duration: 4s;
-        animation-delay: 1.5s;
+        animation-delay: 2.5s;
         animation-fill-mode: forwards;
     }
     /** ^^^ COVER LETTERS ^^^ **/
@@ -303,42 +347,219 @@ src: url("FUTRFW.TTF");
 /** --------------------------------------------- **/
 
 /** vvv PAGE TWO vvv **/
-#blackTriangle{
-  width: 0; 
-  height: 0; 
-  border-left: 1000px solid transparent;
-  border-right: 1000px solid transparent;
-  border-bottom: 0px solid black;
-  margin-bottom: 0px;
-  padding-bottom: 0px;
-  animation-name: rise2;
-  animation-iteration-count: 1;
-  animation-duration: 2s;
-  animation-fill-mode: forwards;
-
-}
 
 /** vvv BIO vvv **/
 #bioBG{
-        margin-top: 0px;
-        padding-top: 0px;
         width: 100%;
-        background-color: black;
-        color: white;
-        height: 800px;
+        height: 930px;
         text-align: center;
+        font-size: 14px;
+        background-image: url(apple-magic-keyboard-coffee-desk-162616.jpg);
+        background-size: 1400px;
+        background-repeat: no-repeat;
+        
+        box-shadow: 5px 15px 25px 1px;
+        box-shadow: -10px -5px 15px 1px #999;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
     }
 #bio{
-        color: white;
-        font-family: 'HelveticaNeue-Light', sans-serif;
+
+/*        font-family: 'HelveticaNeue-Light', sans-serif;*/
+       
+
+        font-family: 'FUTRFW', sans-serif;
         position: relative;
-        top: 350px;
-
+        opacity: 0;
+        padding-right: 500px;
+        width: 600px; 
+        
     }
 
-#bio span{
-        font-size: 36px;
-    }
+#brands{
+    font-size: 30px;
+    text-align: center;
+}
+#hook{
+    font-size: 12px;
+}
+#anchor{
+    font-size: 12px;
+    font-family: 'FUTRFW', sans-serif;
+    
+}
+#desc{
+    font-size: 12px;
+    font-family: 'FUTRFW', sans-serif;
+    
+}
+.pageTwoText{
+    color: black;
+}
+
+#pageThree{
+    background-image: url(abstract-blank-board-296884.jpg);
+    background-size: 1600px;
+    padding-top: -30px;
+    margin-top: -20px;
+
+
+    height: 900px;
+    color: white;
+    box-shadow: inset 0px 35px 55px 0px #000;
+    font-family: "FUTRFW", sans-serif;
+    text-shadow: 2px 5px 1px #000;
+}
+
+#sampleTitle{
+    text-align: center;  
+}
+
 /** ^^^ PAGE TWO ^^^ **/
 
 
+/** vvv PAGE THREE vvv **/
+#pageThree{
+    text-align: center;
+}
+
+
+
+
+
+.thumbnail1 {
+  max-width: 125px;
+margin-right: 400px;
+    border-style: solid;
+    border-color: black;
+    box-shadow: 3px 3px 15px #000;
+    
+
+}
+.sub1{
+
+    margin-right: 400px;
+}
+.thumbnail2{
+    max-width: 125px;
+    margin-top: -200px;
+    
+    border-style: solid;
+    border-color: black;
+    box-shadow: 3px 3px 15px #000;
+    
+}
+.sub2{
+    margin-top: -34px;
+}
+
+
+/** LIGHTBOX MARKUP **/
+
+.lightbox {
+	/** Default lightbox to hidden */
+	display: none;
+
+	/** Position and style */
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+}
+.lightbox img {
+	/** Pad the lightbox image */
+	max-width: 90%;
+	max-height: 80%;
+	margin-top: 2%;
+}
+.lightbox:target {
+	/** Remove default browser outline */
+	outline: none;
+
+	/** Unhide lightbox **/
+	display: block;
+}
+
+
+/** LIGHTBOX MARKUP **/
+
+.lightbox2 {
+	/** Default lightbox to hidden */
+	display: none;
+
+	/** Position and style */
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+}
+.lightbox2 img {
+	/** Pad the lightbox image */
+	max-width: 90%;
+	max-height: 80%;
+	margin-top: 2%;
+}
+.lightbox2:target {
+	/** Remove default browser outline */
+	outline: none;
+
+	/** Unhide lightbox **/
+	display: block;
+}
+
+
+
+.lightbox3 {
+	/** Default lightbox to hidden */
+	display: none;
+
+	/** Position and style */
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+}
+.lightbox3 img {
+	/** Pad the lightbox image */
+	max-width: 90%;
+	max-height: 80%;
+	margin-top: 2%;
+}
+.lightbox3:target {
+	/** Remove default browser outline */
+	outline: none;
+
+	/** Unhide lightbox **/
+	display: block;
+}
+
+.sub3{
+    margin-top: -33px;
+    margin-left: 408px;
+    
+}
+.thumbnail3{
+    max-width: 125px;
+    margin-top: -200px;
+    margin-left: 408px;
+    
+    border-style: solid;
+    border-color: black;
+    box-shadow: 3px 3px 15px #000;
+    
+}
+
+    
+   
