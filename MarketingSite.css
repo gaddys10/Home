@@ -60,7 +60,7 @@ src: url("FUTRFW.TTF");
 #page1{
     background-image: url(statuefade2.jpg);
     background-repeat: no-repeat;
-    background-size: 1450px;
+    background-size: 1550px;
     height: 800px;
     background-color: white;
 }
@@ -355,7 +355,7 @@ src: url("FUTRFW.TTF");
         text-align: center;
         font-size: 14px;
         background-image: url(apple-magic-keyboard-coffee-desk-162616.jpg);
-        background-size: 1400px;
+        background-size: 1550px;
         background-repeat: no-repeat;
         
         box-shadow: 5px 15px 25px 1px;
