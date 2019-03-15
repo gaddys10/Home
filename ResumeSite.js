@@ -10,3 +10,7 @@ $(document).on("scroll", function(){
     }
 });
 
+$('#reserveButton').on("click", function(){
+    $('$formContainer').innerHTML
+    = "<h3 id = 'requestTitle'> Thank you for requesting a session </h3";
+}

@@ -1,11 +1,7 @@
 body{
     margin: 0px;
     padding: 0px;
-    
-    background-repeat: no-repeat;
-    background-size: 1450px;
-    
-    
+
 }
 
 /** vvv ANIMATIONS vvv **/
@@ -53,6 +49,7 @@ src: url("FUTRFW.TTF");
     animation-iteration-count: 1;
     animation-duration: 1s;
     animation-fill-mode: forwards;
+    
 }
 
 /** ^^^ ADDITIONAL CLASSES ^^^ **/
@@ -63,6 +60,8 @@ src: url("FUTRFW.TTF");
     background-size: 1550px;
     height: 800px;
     background-color: white;
+     background-attachment: fixed;
+    
 }
 /** vvv LOGO vvv **/
 #syrus{
@@ -351,17 +350,18 @@ src: url("FUTRFW.TTF");
 /** vvv BIO vvv **/
 #bioBG{
         width: 100%;
-        height: 930px;
+        height: 910px;
         text-align: center;
         font-size: 14px;
         background-image: url(apple-magic-keyboard-coffee-desk-162616.jpg);
         background-size: 1550px;
         background-repeat: no-repeat;
-        
+        background-attachment: bottom right;
         box-shadow: 5px 15px 25px 1px;
         box-shadow: -10px -5px 15px 1px #999;
         padding-bottom: 0px;
         margin-bottom: 0px;
+        
     }
 #bio{
 
@@ -402,6 +402,7 @@ src: url("FUTRFW.TTF");
     background-size: 1600px;
     padding-top: -30px;
     margin-top: -20px;
+   
 
 
     height: 900px;
@@ -560,6 +561,59 @@ margin-right: 400px;
     box-shadow: 3px 3px 15px #000;
     
 }
-
+#page4{
+    background-image: url('backgroudnreserve.jpg');
+    background-size: 1600px;
+    background-position: top right;
+     background-attachment: fixed;
+    height: 700px;
     
+    
+    box-shadow: inset 0px 10px 15px
+}
+
+#requestTItle{
+    color: black;
+    font-family: "FUTRFW", sans-serif;
+}
+#formcontainer{
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+    width: 350px;
+   height: 400px;
+    margin: auto 700px;
+    position: relative;
+    top: 150px;
    
+    border-radius: 5%;
+    
+}
+form{
+    display: table;
+    color:black;
+    font-family: "FUTRFW", sans-serif;
+    margin:auto;
+}
+form h1{
+    text-align: center;
+}
+form p{
+    display: table-row;
+}
+form label{
+    display: table-cell;
+text-align: left;
+    padding-right: 15px;
+    
+}
+
+form input{
+    display: table-cell;
+}
+#message{
+    height: 150px;
+    margin-top: -19px;
+    margin-left: 0px;
+    width: 130px;
+}
